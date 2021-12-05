@@ -1,0 +1,158 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    left: 0; right: 0;
+    margin-left: auto; margin-right: auto;
+    margin-top: 52px;
+    height: 100%;
+    width: 100%;
+    max-width: 720px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+#server-name {
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#server-icon {
+    margin: 0; padding: 0;
+    position: relative;
+    height: 128px; width: 128px;
+    border-radius: 50%;
+
+    background-size: cover;
+    margin-top: -63px;
+    margin-bottom: -64px;
+    
+
+    display: none;
+}
+
+#server-icon[src*="cdn.discordapp.com"] {
+    display: inline;
+}
+
+.loading-gradient {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    background-image: linear-gradient(#ffafbd, #ffc3a0);
+    height: 126px;
+    width: 126px;
+    border-radius: 50%;
+
+    margin-top: 0px;
+    margin-bottom: -64px;
+    box-shadow: 2px 2px 4px black;
+}
+
+#server-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #646881;
+    box-shadow: 2px 2px 4px black;
+    justify-content: space-between;
+}
+
+.stat-display {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px black;
+    white-space: nowrap;
+}
+
+#server-card .stat-display {
+    margin: 10px 16px 0px 16px;
+    line-height: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 84px;
+    background-color: #4B4E63;
+    border-radius: 12px;
+    margin-top: 12px;
+    text-shadow: 2px 2px 4px black;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.card .stat-display {
+    margin-right: 27px;
+    
+    flex-shrink: 0;
+}
+
+.one {background-color: #B9314F;}
+.two {background-color: #87B38D;}
+.three {background-color: #AF8FFF;}
+.four {background-color: #40A5D1;}
+
+.rank {
+    position: inherit;
+    display: flex;
+    height: 48px;
+    width: 48px; min-width: 48px;
+    border-radius: 50%;
+    font-size: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-shadow: 0 0;
+    margin-left: 26px; 
+}
+
+.pfp {
+    height: 64px; width: 64px;
+    min-width: 64px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.username {
+    margin-left: 13px;
+    height: auto;
+    width: 256px;
+    min-width: 256px;
+    font-size: 24px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#footer {
+    color: antiquewhite;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+    text-align: right;
+}

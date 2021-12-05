@@ -1,0 +1,8 @@
+os
+datetime
+discord.py
+mysql-connector-python
+discord-py-slash-command
+random
+string
+pychallonge

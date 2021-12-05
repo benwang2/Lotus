@@ -1,0 +1,6 @@
+__pycache__
+
+*.cnf
+*.swp
+*.conf
+*.ini
