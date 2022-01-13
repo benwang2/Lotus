@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="https://github.com/benwang2/Lotus">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/benwang2/Lotus/master/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Lotus</h3>
@@ -38,7 +38,7 @@ The bot also:
 The web server is powered by Flask and displays the 50 most active users in a community. It also implements an API endpoint `/json/<guild_id>` that returns json data used for displaying the most active users.
 
 <div align="center">
-<img src="images/flask.png" width="100%">
+<img src="https://raw.githubusercontent.com/benwang2/Lotus/master/images/flask.png" width="100%">
 </div>
 <br/>
 
